@@ -26,6 +26,21 @@ git push -u origin main
 
 The workflow `.github/workflows/deploy.yml` runs automatically on every push to `main`.
 
+## Troubleshooting
+
+### Workflow fails at "Setup Pages"
+
+The workflow uses `enablement: true` to auto-enable GitHub Pages. If it still fails:
+
+1. **Settings → Pages → Build and deployment → Source** → select **GitHub Actions**
+2. Re-run the workflow: **Actions → Deploy to GitHub Pages → Run workflow**
+
+### Site shows 404
+
+- Wait 2–3 minutes after a successful deploy
+- Open the exact URL: `https://jerome-kissflow.github.io/kissflow-training-showcase/`
+- Check **Actions** tab for a green checkmark on the latest run
+
 ## 4. Access your site
 
 After the workflow completes (Actions tab → green check):

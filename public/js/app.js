@@ -18,7 +18,12 @@
   };
 
   async function loadContent() {
-    const sources = ['data/content.json', '/api/content'];
+    const base = document.querySelector('base')?.href
+      || new URL('./', window.location.href).href;
+    const sources = [
+      new URL('data/content.json', base).href,
+      '/api/content',
+    ];
     for (const url of sources) {
       try {
         const res = await fetch(url);
