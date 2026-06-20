@@ -1,0 +1,183 @@
+{
+  "id": "forms-expressions",
+  "title": "Forms & Expressions",
+  "icon": "https://kissflow.com/hubfs/feature_image.webp",
+  "color": "#C72C91",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Forms & Expressions",
+      "subtitle": "Design data capture, validation, and calculated fields",
+      "image": "https://kissflow.com/hubfs/Forms%20AI.mp4",
+      "notes": "Source: community.kissflow.com > User guide > Forms & Expressions"
+    },
+    {
+      "type": "content",
+      "title": "Form Designer Overview",
+      "image": "https://kissflow.com/hubfs/Frame%201000005390.png",
+      "bullets": [
+        "Visual drag-and-drop form builder in process and dataform editors",
+        "Field palette on right — basic, advanced, and system fields",
+        "Form canvas in center — arrange fields in sections and rows",
+        "Section headers and dividers for logical grouping",
+        "Field properties panel — label, placeholder, required, default value",
+        "Preview form at any stage to validate user experience"
+      ],
+      "notes": "Forms are shared between processes and dataforms — same designer."
+    },
+    {
+      "type": "content",
+      "title": "Basic Field Types",
+      "image": "https://kissflow.com/hubfs/feature_image.webp",
+      "bullets": [
+        "Text — single line and multi-line (textarea) input",
+        "Number — integer and decimal with min/max validation",
+        "Date and Date-time — calendar picker with format options",
+        "Dropdown — single select from predefined options list",
+        "Checkbox — boolean true/false and multi-select checkbox groups",
+        "Email, Phone, URL — formatted input with validation patterns"
+      ],
+      "notes": "Demo adding each field type to a sample form."
+    },
+    {
+      "type": "content",
+      "title": "Advanced Field Types",
+      "image": "https://kissflow.com/hubfs/Inventory%20management-Oct-06-2025-06-56-19-2386-AM.svg",
+      "bullets": [
+        "Table/Grid — multi-row line items with computed columns",
+        "Lookup — reference data from other flows, dataforms, or datasets",
+        "User — select users from account directory",
+        "Attachment — file upload with size and type restrictions",
+        "Signature — digital signature capture on forms",
+        "Rich text — formatted text with images and links"
+      ],
+      "notes": "Table fields are essential for PO lines, expense items, etc."
+    },
+    {
+      "type": "content",
+      "title": "Lookup Fields Deep Dive",
+      "image": "https://kissflow.com/hubfs/Supplier%20Performance.svg",
+      "bullets": [
+        "Connect form fields to data in other Kissflow flows or dataforms",
+        "Configure source flow, filter conditions, and display columns",
+        "Auto-populate related fields when lookup value is selected",
+        "Lookup columns in tables — display lookup data in table rows",
+        "Cascading lookups — filter options based on parent field value",
+        "Also reference centralized Datasets for master data"
+      ],
+      "notes": "Source: community.kissflow.com — lookup columns in tables"
+    },
+    {
+      "type": "content",
+      "title": "Field Validation Rules",
+      "image": "https://kissflow.com/hubfs/Inspection%20Management.svg",
+      "bullets": [
+        "Required field — prevent submission if empty",
+        "Min/max length for text, min/max value for numbers",
+        "Regex pattern matching for custom format validation",
+        "Unique value validation within a dataform",
+        "Conditional required — required only when another field has value",
+        "Custom validation messages for user-friendly error display"
+      ],
+      "notes": "Show validation configuration in field properties."
+    },
+    {
+      "type": "content",
+      "title": "Expressions and Formulas",
+      "image": "https://kissflow.com/hubfs/DT.png",
+      "bullets": [
+        "Expression builder for calculated and computed fields",
+        "Arithmetic: add, subtract, multiply, divide field values",
+        "String functions: concatenate, substring, uppercase, lowercase",
+        "Date functions: difference between dates, add days, format",
+        "Conditional expressions: IF/THEN/ELSE logic",
+        "Aggregate functions on table columns: SUM, COUNT, AVG, MIN, MAX"
+      ],
+      "notes": "Demo: Total = Quantity × Unit Price in a table field."
+    },
+    {
+      "type": "content",
+      "title": "Conditional Visibility",
+      "image": "https://kissflow.com/hubfs/Workflows.svg",
+      "bullets": [
+        "Show or hide fields based on other field values",
+        "Example: show 'Rejection Reason' only when Status = Rejected",
+        "Multiple conditions with AND/OR logic",
+        "Apply to sections, individual fields, and table columns",
+        "Reduces form clutter — users see only relevant fields",
+        "Visibility rules evaluated in real-time as user fills form"
+      ],
+      "notes": "Conditional visibility is one of the most powerful form features."
+    },
+    {
+      "type": "content",
+      "title": "Default Values and Auto-Population",
+      "image": "https://kissflow.com/hubfs/User%20monitoring.svg",
+      "bullets": [
+        "Set static default values for fields",
+        "Dynamic defaults: current user, current date, logged-in department",
+        "Auto-populate from lookup selection",
+        "Pre-fill from URL parameters when form opened via link",
+        "Carry forward values from previous process item",
+        "System fields auto-populated: Created by, Created at, Item ID"
+      ],
+      "notes": "Defaults reduce data entry burden and errors."
+    },
+    {
+      "type": "content",
+      "title": "AI Form Creation",
+      "image": "https://kissflow.com/hs-fs/hubfs/AI%20for%20Enterprise%20Use%20Cases%20(1).webp",
+      "bullets": [
+        "Describe the form you need in natural language",
+        "AI generates fields, sections, and basic validation",
+        "Refine with visual form designer after generation",
+        "Accelerates prototyping — edit before publishing",
+        "Works for both process forms and dataform schemas",
+        "Enterprise AI with constraint-aware deterministic output"
+      ],
+      "notes": "Reference kissflow.com AI Forms capability."
+    },
+    {
+      "type": "content",
+      "title": "Datasets — Centralized Reference Data",
+      "image": "https://kissflow.com/hubfs/Data%20Policies.webp",
+      "bullets": [
+        "Datasets store master/reference data shared across the account",
+        "Import from CSV or populate via integrations",
+        "Use in lookup fields, reports, decision tables, and expressions",
+        "Governed by data policies for access control",
+        "Examples: country list, department codes, product catalog",
+        "Update dataset once — reflects everywhere it is referenced"
+      ],
+      "notes": "Source: community.kissflow.com > User guide > Datasets"
+    },
+    {
+      "type": "content",
+      "title": "Decision Tables",
+      "image": "https://kissflow.com/hubfs/DT.png",
+      "bullets": [
+        "Tabular business rules: input conditions → output actions",
+        "Define rules business users can maintain without code",
+        "Used in workflow conditions for routing and approval logic",
+        "Example: If Amount > 10000 AND Department = Finance → CFO approval",
+        "Import/export decision tables for backup and migration",
+        "Test decision table with sample inputs before deployment"
+      ],
+      "notes": "Source: community.kissflow.com > User guide > Decision tables"
+    },
+    {
+      "type": "content",
+      "title": "Forms Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Simple%20and%20Sophisticated%20(1).webp",
+      "bullets": [
+        "Keep forms concise — only ask for necessary information",
+        "Group related fields into clearly labeled sections",
+        "Use lookups instead of free text for standardized data",
+        "Apply conditional visibility to reduce cognitive load",
+        "Test with real users before go-live — observe completion time",
+        "Document field purposes for future maintainers"
+      ],
+      "notes": "Close Forms & Expressions section."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "apps-portals",
+  "title": "Apps & Portals",
+  "icon": "https://kissflow.com/hubfs/Portals.svg",
+  "color": "#C72C91",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Kissflow Apps & Portals",
+      "subtitle": "Build custom enterprise applications and external-facing portals",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "notes": "Source: community.kissflow.com > User guide > Apps, Portal"
+    },
+    {
+      "type": "content",
+      "title": "What are Kissflow Apps?",
+      "image": "https://kissflow.com/hubfs/AI%20App%20Creation%20Video.mp4",
+      "bullets": [
+        "Apps combine pages, navigation, processes, dataforms, boards, and reports",
+        "Built with visual page editor and optional JavaScript scripting",
+        "Role-based navigation — different menus for different user groups",
+        "Publish to specific users, groups, or entire organization",
+        "Apps appear on user home page based on access permissions",
+        "Citizen developers build apps; IT governs through app admin roles"
+      ],
+      "notes": "Apps are the container — everything else lives inside them."
+    },
+    {
+      "type": "content",
+      "title": "App Builder Interface",
+      "image": "https://kissflow.com/hubfs/Section%201.webp",
+      "bullets": [
+        "Left panel: Pages, Navigation, Processes, Dataforms, Boards, Reports, Settings",
+        "Center: page canvas with drag-and-drop component placement",
+        "Right panel: component properties and page settings",
+        "Component library: views, charts, text, images, buttons, embeds",
+        "Preview mode to test app before publishing",
+        "Version control with draft and publish workflow"
+      ],
+      "notes": "Demo the app builder — show component palette."
+    },
+    {
+      "type": "content",
+      "title": "App Pages and Navigation",
+      "image": "https://kissflow.com/hubfs/Section%201%20Tab.webp",
+      "bullets": [
+        "Create multiple pages per app — dashboard, list, detail, settings",
+        "Navigation menu — configure links, icons, and ordering",
+        "Role-based navigation — show different menus to different roles",
+        "Page parameters — pass data between pages dynamically",
+        "Breadcrumbs and page titles for user orientation",
+        "Default landing page configurable per role"
+      ],
+      "notes": "Show navigation configuration for admin vs user roles."
+    },
+    {
+      "type": "content",
+      "title": "Page Components",
+      "image": "https://kissflow.com/hubfs/feature_image.webp",
+      "bullets": [
+        "Process components — initiate and list process items",
+        "Dataform views — data table, gallery, sheet components",
+        "Board components — kanban board embedded on page",
+        "Report/chart components — analytics visualizations",
+        "Text, image, button, divider — layout and UI elements",
+        "Custom page components — JavaScript/HTML for advanced UI"
+      ],
+      "notes": "Each component binds to a specific flow, dataform, board, or report."
+    },
+    {
+      "type": "content",
+      "title": "AI Custom Page Components",
+      "image": "https://kissflow.com/hs-fs/hubfs/AI%20for%20Enterprise%20Use%20Cases%20(1).webp",
+      "bullets": [
+        "Describe what you want to build — AI generates page components",
+        "Natural language to functional UI with data bindings",
+        "Iterate by refining the description or editing generated code",
+        "Works within enterprise constraints for predictable output",
+        "Announced March 2026 — Product announcement",
+        "Accelerates prototyping for citizen developers"
+      ],
+      "notes": "Source: community.kissflow.com — Build custom page components with AI"
+    },
+    {
+      "type": "content",
+      "title": "App Roles and Permissions",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "App Admin — full build and configuration access",
+        "Define custom roles within the app (Manager, User, Viewer, etc.)",
+        "Map roles to account user groups",
+        "Page-level visibility — restrict pages to specific roles",
+        "Component-level permissions within pages",
+        "Process, dataform, and board permissions inherit from app roles"
+      ],
+      "notes": "Role design is critical — plan before building pages."
+    },
+    {
+      "type": "content",
+      "title": "What is a Portal?",
+      "image": "https://kissflow.com/hubfs/AI%20Portal%20Creation%20No%20Background.mp4",
+      "bullets": [
+        "External-facing application interface for non-Kissflow users",
+        "Partners, vendors, customers access via dedicated portal URL",
+        "Enterprise plan feature — not available on Basic plan",
+        "Custom branding: logo, colors, and domain configuration",
+        "Separate authentication for external users",
+        "Expose selected processes, forms, and data securely"
+      ],
+      "notes": "Source: community.kissflow.com > Portal overview"
+    },
+    {
+      "type": "content",
+      "title": "Portal Configuration",
+      "image": "https://kissflow.com/hubfs/Vendor%20Portal.svg",
+      "bullets": [
+        "Configure portal URL, branding, and welcome page",
+        "Define external user registration and login methods",
+        "Select which app pages and processes are portal-accessible",
+        "Field-level security for external vs internal data visibility",
+        "Portal users see only their own submissions and permitted data",
+        "Audit log tracks all external user actions"
+      ],
+      "notes": "Demo vendor portal or partner onboarding portal if available."
+    },
+    {
+      "type": "grid",
+      "title": "Portal Use Cases",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Vendor%20Portal.svg",
+          "label": "Vendor Portal",
+          "desc": "Supplier onboarding and PO management"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Vendor%20Portal.svg",
+          "label": "Vendor Qualification",
+          "desc": "Compliance and certification tracking"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Customer%20Complaint.svg",
+          "label": "Customer Portal",
+          "desc": "Support requests and case tracking"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Partner%20Portal.webp",
+          "label": "Partner Portal",
+          "desc": "Channel partner collaboration"
+        }
+      ],
+      "notes": "Reference kissflow.com industry templates."
+    },
+    {
+      "type": "content",
+      "title": "App Publishing and Lifecycle",
+      "image": "https://kissflow.com/hubfs/App%20Monitoring.webp",
+      "bullets": [
+        "Draft mode — build and test without affecting live users",
+        "Publish — make app available to configured user groups",
+        "Unpublish — remove from user home pages without deleting",
+        "Archive — retire apps no longer in use",
+        "Duplicate apps as starting point for new solutions",
+        "Monitor usage via App Monitoring governance module"
+      ],
+      "notes": "Emphasize draft/publish discipline for production apps."
+    },
+    {
+      "type": "content",
+      "title": "Apps Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/For%20Leaders%20with%20a%20Big%20Vision%20(1).webp",
+      "bullets": [
+        "Plan information architecture before building pages",
+        "One app per business domain — avoid mega-apps",
+        "Reuse processes and dataforms across multiple app pages",
+        "Design for mobile — test on phone and tablet screen sizes",
+        "Use role-based navigation to simplify user experience",
+        "Document app purpose and owner for long-term maintainability"
+      ],
+      "notes": "Close Apps & Portals section."
+    }
+  ]
+}

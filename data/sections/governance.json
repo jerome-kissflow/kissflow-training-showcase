@@ -1,0 +1,187 @@
+{
+  "id": "governance",
+  "title": "Governance & Security",
+  "icon": "https://kissflow.com/hubfs/Data%20policies.svg",
+  "color": "#1D2B36",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Governance & Security",
+      "subtitle": "Move fast without losing control — enterprise-grade platform governance",
+      "image": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+      "notes": "Source: kissflow.com governance section, community security docs"
+    },
+    {
+      "type": "grid",
+      "title": "Governance Module Overview",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Data%20policies.svg",
+          "label": "Data Policies",
+          "desc": "Organize and secure organizational data"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/App%20monitoring.svg",
+          "label": "App Monitoring",
+          "desc": "Track app performance and usage"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/User%20monitoring.svg",
+          "label": "User Monitoring",
+          "desc": "Login and activity tracking"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Role-based%20access.svg",
+          "label": "Role-Based Access",
+          "desc": "Granular permission controls"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Audit%20log.svg",
+          "label": "Audit Log",
+          "desc": "Complete accountability records"
+        }
+      ],
+      "notes": "Overview slide — drill into each module in following slides."
+    },
+    {
+      "type": "content",
+      "title": "Data Policies",
+      "image": "https://kissflow.com/hubfs/Data%20Policies.webp",
+      "bullets": [
+        "Centralize and secure all organizational data in one governed layer",
+        "Define data classification and handling rules",
+        "Real-time filters and views to structure information access",
+        "Control which apps and processes can access which data",
+        "Customizable permissions at data object level",
+        "Foundation for compliant data management across the platform"
+      ],
+      "notes": "Source: kissflow.com > Data policies"
+    },
+    {
+      "type": "content",
+      "title": "App Monitoring",
+      "image": "https://kissflow.com/hubfs/App%20Monitoring.webp",
+      "bullets": [
+        "Monitor app performance and catch issues before they escalate",
+        "Track usage patterns — active users, page views, submissions",
+        "Identify underutilized apps for optimization or retirement",
+        "Detect anomalies in app behavior or data volume",
+        "Ensure business continuity with real-time monitoring dashboards",
+        "Export monitoring data for IT operations reporting"
+      ],
+      "notes": "Source: kissflow.com > App monitoring"
+    },
+    {
+      "type": "content",
+      "title": "User Monitoring",
+      "image": "https://kissflow.com/hubfs/User%20Monitoring.webp",
+      "bullets": [
+        "Track logins, actions, and behaviors across the platform",
+        "Detect suspicious activity and respond to security threats",
+        "Maintain visibility into access permissions and changes",
+        "Session tracking and concurrent login monitoring",
+        "Inactive user identification for license optimization",
+        "Compliance reporting on user access patterns"
+      ],
+      "notes": "Source: kissflow.com > User monitoring"
+    },
+    {
+      "type": "content",
+      "title": "Role-Based Access Control",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "Assign permissions based on roles to minimize security exposure",
+        "Hierarchical roles: Super Admin → App Admin → User",
+        "Custom roles per process, app, board, and dataform",
+        "Group-based role assignment for scalable management",
+        "Principle of least privilege — users access only what's necessary",
+        "Auditable access controls with change history"
+      ],
+      "notes": "Source: kissflow.com > Role-based access"
+    },
+    {
+      "type": "content",
+      "title": "Audit Log",
+      "image": "https://kissflow.com/hubfs/Audit%20Logs.webp",
+      "bullets": [
+        "Automatically log every action and change in the system",
+        "Timestamped records: who, what, when, and from where",
+        "Meet regulatory compliance requirements (SOX, HIPAA, GDPR)",
+        "Investigate incidents with searchable audit trail",
+        "Export audit logs for external compliance audits",
+        "Retention policies configurable for log data"
+      ],
+      "notes": "Source: kissflow.com > Audit log"
+    },
+    {
+      "type": "content",
+      "title": "Authentication and API Security",
+      "image": "https://kissflow.com/hubfs/Audit%20log.svg",
+      "bullets": [
+        "SSO integration with SAML, OAuth, and OIDC providers",
+        "Multi-factor authentication (MFA) enforcement",
+        "Service accounts for secure API and integration access",
+        "Authentication keys management in Admin settings",
+        "API rate limiting and IP allowlisting",
+        "Session timeout and concurrent session policies"
+      ],
+      "notes": "Source: community.kissflow.com > Authentication Keys, Service account"
+    },
+    {
+      "type": "content",
+      "title": "Data Backup",
+      "image": "https://kissflow.com/hubfs/Data%20Policies.webp",
+      "bullets": [
+        "Enterprise plan — available on request from support team",
+        "Account-level backup of processes, apps, and data",
+        "Understand backup output format for restore planning",
+        "Disaster recovery consideration for business continuity",
+        "Coordinate backup schedule with IT operations",
+        "Source: community.kissflow.com > Understanding your backup output"
+      ],
+      "notes": "Enterprise customers should request backup enablement early."
+    },
+    {
+      "type": "content",
+      "title": "Compliance and Certifications",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "GDPR compliance for European data protection requirements",
+        "SOC 2 Type II certification for security controls",
+        "Data residency options for regulated industries",
+        "Responsible disclosure program for security researchers",
+        "End of Life (EoL) policy for deprecated features",
+        "Security page at kissflow.com/security for full details"
+      ],
+      "notes": "Reference compliance docs for regulated industries."
+    },
+    {
+      "type": "content",
+      "title": "Citizen Development Governance",
+      "image": "https://kissflow.com/hs-fs/hubfs/For%20Leaders%20with%20a%20Big%20Vision%20(1).webp",
+      "bullets": [
+        "Establish a Center of Excellence (CoE) for citizen development",
+        "Define which teams can build vs only consume apps",
+        "App review and approval workflow before production publish",
+        "Naming conventions and documentation standards",
+        "Regular audits of apps, permissions, and data access",
+        "Balance empowerment with IT oversight for sustainable scaling"
+      ],
+      "notes": "Critical for organizations scaling beyond pilot projects."
+    },
+    {
+      "type": "content",
+      "title": "Governance Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+      "bullets": [
+        "Enable governance modules from day one — not as an afterthought",
+        "Review audit logs and user monitoring monthly",
+        "Conduct quarterly access reviews — remove stale permissions",
+        "Document data classification for all production apps",
+        "Train citizen developers on security responsibilities",
+        "Maintain an app inventory with owners and business purpose"
+      ],
+      "notes": "Close Governance & Security section."
+    }
+  ]
+}

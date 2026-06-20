@@ -1,0 +1,169 @@
+{
+  "id": "analytics-reports",
+  "title": "Analytics & Reports",
+  "icon": "https://kissflow.com/hubfs/Reports.svg",
+  "color": "#C72C91",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Analytics & Reports",
+      "subtitle": "Turn platform data into actionable business insights",
+      "image": "https://kissflow.com/hubfs/Reports.svg",
+      "notes": "Source: community.kissflow.com > User guide > Analytics"
+    },
+    {
+      "type": "content",
+      "title": "Reporting in Kissflow",
+      "image": "https://kissflow.com/hubfs/AI%20Report%20Creation.mp4",
+      "bullets": [
+        "Reports available for processes, dataforms, and boards",
+        "Visual report builder with drag-and-drop field selection",
+        "Multiple visualization types: table, chart, pivot, KPI cards",
+        "Filter, group, sort, and aggregate data",
+        "Export to CSV, Excel, and PDF",
+        "Schedule automated email delivery to stakeholders"
+      ],
+      "notes": "Reports are built per flow (process/dataform/board)."
+    },
+    {
+      "type": "content",
+      "title": "Creating a Report",
+      "image": "https://kissflow.com/hubfs/CIO-Reports.png",
+      "bullets": [
+        "Open flow editor → Reports tab → Create new report",
+        "Select data source fields from form and system metadata",
+        "Choose report type: Tabular, Bar, Line, Pie, Pivot, KPI",
+        "Apply filters: date range, status, user, department, custom fields",
+        "Configure grouping — group by field with aggregate functions",
+        "Preview report with live data before saving"
+      ],
+      "notes": "Demo building a simple tabular report step by step."
+    },
+    {
+      "type": "content",
+      "title": "Report Visualization Types",
+      "image": "https://kissflow.com/hubfs/Production%20Tracking.webp",
+      "bullets": [
+        "Tabular — rows and columns, sortable and filterable",
+        "Bar chart — compare categories side by side",
+        "Line chart — trends over time periods",
+        "Pie/Donut chart — proportional breakdown of a whole",
+        "Pivot table — cross-tabulate two or more dimensions",
+        "KPI card — single metric with optional comparison to target"
+      ],
+      "notes": "Choose visualization that best communicates the insight."
+    },
+    {
+      "type": "content",
+      "title": "Filters, Grouping, and Aggregation",
+      "image": "https://kissflow.com/hubfs/Spend%20Management.svg",
+      "bullets": [
+        "Filter by any form field, system field, or workflow metadata",
+        "Date filters: today, this week, this month, custom range",
+        "Group by field — department, status, category, assignee",
+        "Aggregates: COUNT, SUM, AVG, MIN, MAX on numeric fields",
+        "Multiple grouping levels for drill-down analysis",
+        "Save filter presets for reusable report configurations"
+      ],
+      "notes": "Show grouped report: submissions per department per month."
+    },
+    {
+      "type": "content",
+      "title": "AI Report Creation",
+      "image": "https://kissflow.com/hs-fs/hubfs/AI%20for%20Enterprise%20Use%20Cases%20(1).webp",
+      "bullets": [
+        "Describe the report you need in natural language",
+        "AI selects fields, filters, grouping, and visualization type",
+        "Refine generated report in visual builder",
+        "Accelerates report creation for business users",
+        "Works across process, dataform, and board data sources",
+        "Enterprise AI with constraint-aware output"
+      ],
+      "notes": "Reference kissflow.com AI Report Creation."
+    },
+    {
+      "type": "content",
+      "title": "Report Permissions",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "Report Viewer role — access reports without process participation",
+        "Separate from process initiator/participant permissions",
+        "Assign report access to managers, executives, auditors",
+        "Row-level security inherited from source flow permissions",
+        "Embed reports in apps with app role-based visibility",
+        "Export permissions configurable per report"
+      ],
+      "notes": "Executives often need report access without being workflow participants."
+    },
+    {
+      "type": "content",
+      "title": "Report Scheduling",
+      "image": "https://kissflow.com/hubfs/CIO-Reports.png",
+      "bullets": [
+        "Schedule reports: daily, weekly, monthly, or custom cron",
+        "Email report as PDF or CSV attachment to recipient list",
+        "Include report snapshot — data as of schedule execution time",
+        "Multiple schedules per report for different audiences",
+        "Monitor schedule execution in admin logs",
+        "Pause or modify schedules without deleting the report"
+      ],
+      "notes": "Demo scheduling a weekly status report to team leads."
+    },
+    {
+      "type": "content",
+      "title": "Dashboards in Apps",
+      "image": "https://kissflow.com/hubfs/Last%20Section%20%281%29.webp",
+      "bullets": [
+        "Combine multiple report/chart components on one app page",
+        "Create role-specific dashboards — ops, management, executive",
+        "KPI cards at top, detail charts below, tabular data at bottom",
+        "Auto-refresh or manual refresh for live data",
+        "Responsive layout for desktop and mobile viewing",
+        "Dashboard as default landing page for app users"
+      ],
+      "notes": "Show executive dashboard with 4-5 chart components."
+    },
+    {
+      "type": "content",
+      "title": "Admin Analytics",
+      "image": "https://kissflow.com/hubfs/App%20Monitoring.webp",
+      "bullets": [
+        "Platform-level analytics for administrators",
+        "Track app usage, active users, and adoption trends",
+        "Process volume and completion rate metrics",
+        "Identify unused or underutilized apps and processes",
+        "User activity monitoring for security and compliance",
+        "Source: community.kissflow.com > Admin Analytics"
+      ],
+      "notes": "IT admins use this for platform health monitoring."
+    },
+    {
+      "type": "content",
+      "title": "Export and External BI",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Export any report to CSV or Excel for offline analysis",
+        "API access to report data for Power BI, Tableau, Looker",
+        "Scheduled exports to cloud storage via integrations",
+        "Large dataset exports with pagination support",
+        "Maintain data freshness with scheduled API pulls",
+        "Combine Kissflow data with other enterprise data sources"
+      ],
+      "notes": "For organizations with existing BI infrastructure."
+    },
+    {
+      "type": "content",
+      "title": "Analytics Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Proven%20451%25%20ROI.webp",
+      "bullets": [
+        "Define KPIs before building reports — what decisions will this inform?",
+        "Create operational reports (daily) and strategic reports (monthly)",
+        "Use consistent naming conventions across reports",
+        "Test reports with realistic data volumes before go-live",
+        "Review and prune unused reports quarterly",
+        "Train report viewers on how to interpret and act on data"
+      ],
+      "notes": "Close Analytics & Reports section."
+    }
+  ]
+}

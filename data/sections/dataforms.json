@@ -1,0 +1,253 @@
+{
+  "id": "dataforms",
+  "title": "Dataforms",
+  "icon": "https://kissflow.com/hubfs/Data%20Policies.webp",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Dataforms in Kissflow Apps",
+      "subtitle": "Structured data storage, multiple views, and page components",
+      "image": "https://kissflow.com/hubfs/Data%20Policies.webp",
+      "notes": "Source: community.kissflow.com > Dataforms in apps"
+    },
+    {
+      "type": "content",
+      "title": "What is a Dataform?",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "A dataform is a structured data store within a Kissflow App",
+        "Captures and persists data independently of process workflows",
+        "Combines a form (schema) with views, reports, roles, and settings",
+        "Enterprise plan feature — not available on Basic plan",
+        "Use for master data, catalogs, inventories, registers, and lookups",
+        "Foundation for app pages — display and edit data through view components"
+      ],
+      "notes": "Contrast dataforms with processes — dataforms are for persistent records, processes for workflow items."
+    },
+    {
+      "type": "content",
+      "title": "Creating a New Dataform",
+      "image": "https://kissflow.com/hubfs/AI%20App%20Creation%20Video.mp4",
+      "bullets": [
+        "Quick create (+) on left navigation → Dataform",
+        "Three creation options: Build with AI, Create from scratch, Templates",
+        "Build with AI — describe your data model in natural language",
+        "Create from scratch — empty form you design field by field",
+        "Templates — install pre-built dataforms from Template gallery",
+        "Dataform must belong to an app — create or select app first"
+      ],
+      "notes": "Source: community.kissflow.com > Creating and managing dataforms"
+    },
+    {
+      "type": "content",
+      "title": "Dataform Editor Layout",
+      "image": "https://kissflow.com/hubfs/Section%202.webp",
+      "bullets": [
+        "Left panel: Form, Views, Reports, Roles, and Settings tabs",
+        "Center: form canvas where fields are arranged",
+        "Right panel: field palette — basic and advanced field types",
+        "Drag and drop fields onto the form or click to insert",
+        "Click Save to persist changes and make dataform available in app",
+        "Rename, duplicate, and archive dataforms from settings"
+      ],
+      "notes": "Walk through the editor — mirror the process builder layout trainees already know."
+    },
+    {
+      "type": "content",
+      "title": "Dataform Field Types",
+      "image": "https://kissflow.com/hubfs/Forms%20AI.mp4",
+      "bullets": [
+        "Basic: Text, Number, Date, Dropdown, Checkbox, Email, Phone, URL",
+        "Advanced: Lookup, User, Attachment, Signature, Rich text, Grid",
+        "System fields: Created at, Created by, Modified at, Modified by, ID",
+        "Grid fields — tabular sub-data within a single record (no soft limit)",
+        "Button fields — up to 100 per dataform for custom actions",
+        "Rich text and Grid fields exempt from default form field soft limits"
+      ],
+      "notes": "Explain soft limits — coordinate with team to avoid concurrent edit conflicts."
+    },
+    {
+      "type": "content",
+      "title": "Dataform Views — Overview",
+      "image": "https://kissflow.com/hubfs/Section%201.webp",
+      "bullets": [
+        "Views visualize collected dataform data in different formats",
+        "Three primary view types: Data table, Gallery, and Sheet",
+        "Each view has a unique name within the dataform",
+        "Views are added to app pages as draggable components",
+        "Configure filters, columns, sorting, and permissions per view",
+        "Multiple views of the same data — different perspectives for different roles"
+      ],
+      "notes": "KEY CONCEPT — views are how end users interact with dataform data."
+    },
+    {
+      "type": "content",
+      "title": "Data Table View",
+      "image": "https://kissflow.com/hubfs/Retail%20Store%20Management-1.webp",
+      "bullets": [
+        "Displays dataform records as rows with field columns as headers",
+        "Create: Dataform → Views → + New view → Data table → Create",
+        "Add columns from form fields or system fields (Select all option)",
+        "Sort by clicking column header or configuring default sort",
+        "Advanced data filters: Equal to, Not equal to, Part of, AND/OR conditions",
+        "Quick filters — separate tabs for saved filter combinations, drag to reorder"
+      ],
+      "notes": "Source: community.kissflow.com > Data table view"
+    },
+    {
+      "type": "content",
+      "title": "Data Table — Advanced Configuration",
+      "image": "https://kissflow.com/hubfs/Production%20Tracking.webp",
+      "bullets": [
+        "Bulk actions — JavaScript code to act on selected or all rows",
+        "Add multiple bulk actions and reorder them as needed",
+        "Export data from data table view to downloadable file",
+        "Quick filters can be enabled/disabled at page component level",
+        "Column visibility and order controlled in view settings",
+        "Row selection — select all or specific rows for bulk operations"
+      ],
+      "notes": "Demo bulk action — e.g., 'Mark selected as Inactive'."
+    },
+    {
+      "type": "content",
+      "title": "Gallery View",
+      "image": "https://kissflow.com/hubfs/Retail%20Store%20Management-1.webp",
+      "bullets": [
+        "Card-based layout — ideal for visual catalogs and directories",
+        "Create: Views → + New view → Gallery → provide unique name",
+        "Card styles — up to five different card style templates",
+        "Layout options: Matrix, Horizontal, and Vertical arrangements",
+        "Card sizes: Small, Medium, Large, Extra large",
+        "Card borders: Gray border, Shadow, or None"
+      ],
+      "notes": "Source: community.kissflow.com > Gallery view"
+    },
+    {
+      "type": "content",
+      "title": "Gallery View — Sorting and Display",
+      "image": "https://kissflow.com/hubfs/Vendor%20Portal.svg",
+      "bullets": [
+        "Custom sort — assign column field with ascending or descending order",
+        "Map form fields to card title, subtitle, image, and metadata",
+        "Apply data filters same as data table (Advanced filters)",
+        "Quick filters for tabbed filtered views",
+        "Best for: product catalogs, employee directories, asset galleries",
+        "Add gallery view component to app page via drag and drop"
+      ],
+      "notes": "Show a product catalog example with images in cards."
+    },
+    {
+      "type": "content",
+      "title": "Sheet View",
+      "image": "https://kissflow.com/hubfs/Cheeta%20529x400.webp",
+      "bullets": [
+        "Grid/spreadsheet interface — edit data directly in cells",
+        "Column headings from selected form fields and system fields",
+        "Create: Views → + New view → Sheet → configure columns",
+        "Users add, modify, and delete rows at runtime",
+        "Add multiple rows using the Add button",
+        "Ideal for bulk data entry and spreadsheet-like editing"
+      ],
+      "notes": "Source: community.kissflow.com > Sheet view in dataforms"
+    },
+    {
+      "type": "content",
+      "title": "Sheet View — Page Component Settings",
+      "image": "https://kissflow.com/hubfs/Section%201%20Tab.webp",
+      "bullets": [
+        "Drag sheet view component onto an app page",
+        "Show form — enable users with Manage permission to view/edit full form",
+        "Quick filter — turn on/off quick filters configured on the dataform",
+        "Export — enable CSV download button on the sheet view",
+        "Advanced data filters control which rows appear in the sheet",
+        "Runtime editing — authorized users modify data without opening individual forms"
+      ],
+      "notes": "Contrast sheet view (editable grid) vs data table (read-focused with bulk actions)."
+    },
+    {
+      "type": "content",
+      "title": "Configuring Field Permissions in Views",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "Field-level permissions differ per view and per role",
+        "Control which fields are visible, editable, or hidden in each view",
+        "Roles defined in dataform Roles tab map to app user groups",
+        "Manage permission — full CRUD access to records",
+        "View permission — read-only access to data",
+        "Configure per view so same data shows differently to different roles"
+      ],
+      "notes": "Source: community.kissflow.com > Configuring field permissions in dataform views"
+    },
+    {
+      "type": "content",
+      "title": "Data Filters — Advanced and Quick",
+      "image": "https://kissflow.com/hubfs/App%20monitoring.svg",
+      "bullets": [
+        "Advanced filters: select field → operator → value/field/parameter",
+        "Operators: Equal to, Not equal to, Part of, Greater than, Less than, etc.",
+        "Combine conditions with AND/OR logic for complex rules",
+        "Quick filters — saved filter presets shown as separate tabs",
+        "Drag and drop to reorder quick filter tabs",
+        "Page-level override — enable/disable quick filters on embedded components"
+      ],
+      "notes": "Demo: filter active employees where Department = 'Sales'."
+    },
+    {
+      "type": "content",
+      "title": "Importing and Exporting Data",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Import data from CSV file into a dataform",
+        "Map CSV columns to dataform fields during import wizard",
+        "Export data from data table view or sheet view as CSV",
+        "Bulk import for initial data load during app setup",
+        "Validate data types during import to prevent errors",
+        "Coordinate imports with team — avoid concurrent unsaved edits"
+      ],
+      "notes": "Source: community.kissflow.com > Importing data from CSV file"
+    },
+    {
+      "type": "content",
+      "title": "Dataform Reports",
+      "image": "https://kissflow.com/hubfs/AI%20Report%20Creation.mp4",
+      "bullets": [
+        "Create reports from dataform data in the Reports tab",
+        "Same report builder as processes — charts, tables, pivots",
+        "Filter and aggregate dataform records for analytics",
+        "Embed dataform reports on app pages alongside views",
+        "Schedule report delivery to stakeholders",
+        "Combine dataform reports with process reports on dashboard pages"
+      ],
+      "notes": "Dataforms have their own reports separate from views."
+    },
+    {
+      "type": "content",
+      "title": "Adding Dataform Views to App Pages",
+      "image": "https://kissflow.com/hubfs/Partner%20Portal.webp",
+      "bullets": [
+        "Open app page editor → drag Data table, Gallery, or Sheet component",
+        "Select the dataform and specific view to bind",
+        "Configure component settings: filters, export, show form button",
+        "Combine multiple view components on one page for different audiences",
+        "Use page-level scripting to interact with view components",
+        "Navigation menu links users to dataform-powered pages"
+      ],
+      "notes": "Demo a complete app page with data table + gallery side by side."
+    },
+    {
+      "type": "content",
+      "title": "Dataform Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+      "bullets": [
+        "Design schema first — plan fields before building views",
+        "Create role-specific views rather than one view for everyone",
+        "Use data table for operations, gallery for browsing, sheet for bulk entry",
+        "Apply data filters to reduce noise — users see only relevant records",
+        "Set field permissions early — harder to change after go-live",
+        "Coordinate team edits — one editor at a time to avoid save conflicts"
+      ],
+      "notes": "Close Dataforms section — this is often the most hands-on topic."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "integrations",
+  "title": "Integrations",
+  "icon": "https://kissflow.com/hubfs/features%20(1).svg",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Kissflow Integrations",
+      "subtitle": "Connect Kissflow with internal and external systems",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "notes": "Source: academy.kissflow.com Integrations course, community Integrations guide"
+    },
+    {
+      "type": "content",
+      "title": "Integration Landscape",
+      "image": "https://kissflow.com/hubfs/capabilities%20(2).svg",
+      "bullets": [
+        "Pre-built connectors for popular SaaS applications",
+        "REST API for custom system integration",
+        "Webhooks for real-time event-driven automation",
+        "Kissflow-to-Kissflow cross-account data exchange",
+        "Connector Builder for custom connectors (Enterprise)",
+        "Cryptography connector for data encryption/decryption"
+      ],
+      "notes": "Overview of all integration options available."
+    },
+    {
+      "type": "content",
+      "title": "Pre-Built Connectors",
+      "image": "https://kissflow.com/hubfs/initiatives.svg",
+      "bullets": [
+        "Ready-made connectors in Kissflow Integration marketplace",
+        "Categories: CRM, ERP, HR, Finance, IT, Communication, Storage",
+        "Configure authentication (OAuth, API key, basic auth)",
+        "Map fields between Kissflow and external system",
+        "Bi-directional sync where supported",
+        "No code required for standard connector configurations"
+      ],
+      "notes": "Browse integration catalog in admin or app settings."
+    },
+    {
+      "type": "content",
+      "title": "Connector Builder",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Build custom connectors without leaving Kissflow",
+        "Define authentication methods for target system",
+        "Configure actions (API calls Kissflow makes) and triggers (events that start flows)",
+        "Test connector in sandbox before production use",
+        "Enterprise plan feature — announced June 2026",
+        "Empowers IT teams to integrate proprietary systems"
+      ],
+      "notes": "Source: community.kissflow.com — Kissflow Connector builder"
+    },
+    {
+      "type": "content",
+      "title": "Creating Triggers",
+      "image": "https://kissflow.com/hubfs/Workflows.mp4",
+      "bullets": [
+        "Trigger = event or condition that starts an integration",
+        "Acts as listener waiting for specific change in connected system",
+        "Examples: new record created, status changed, file uploaded",
+        "Map trigger payload to Kissflow process or dataform fields",
+        "Enterprise plan — Connector builder documentation",
+        "Combine multiple triggers for complex event handling"
+      ],
+      "notes": "Source: community.kissflow.com > Creating triggers"
+    },
+    {
+      "type": "content",
+      "title": "Integration Actions",
+      "image": "https://kissflow.com/hubfs/Fleet%20Management.webp",
+      "bullets": [
+        "Actions execute when integration runs — create, read, update, delete",
+        "Use in workflow steps: 'On approval, create record in Salesforce'",
+        "Chain multiple actions in sequence",
+        "Error handling and retry configuration",
+        "Log integration execution for troubleshooting",
+        "Test mode to validate without affecting production data"
+      ],
+      "notes": "Demo: on PO approval → create entry in ERP system."
+    },
+    {
+      "type": "content",
+      "title": "Cryptography Connector",
+      "image": "https://kissflow.com/hubfs/Audit%20Logs.webp",
+      "bullets": [
+        "In-built security tool for data protection in integrations",
+        "Encrypt sensitive data before sending to external systems",
+        "Decrypt incoming data for use in Kissflow forms",
+        "Supports industry-standard encryption algorithms",
+        "Announced June 2026 — Product announcement",
+        "Critical for PII, financial, and healthcare data handling"
+      ],
+      "notes": "Source: community.kissflow.com — Cryptography connector"
+    },
+    {
+      "type": "content",
+      "title": "REST API Integration",
+      "image": "https://kissflow.com/hubfs/KF_IT.png",
+      "bullets": [
+        "Kissflow REST API for programmatic access to all platform data",
+        "Authentication via API keys and service accounts",
+        "CRUD operations on process items, dataform records, users",
+        "Webhook subscriptions for outbound event notifications",
+        "Rate limits and pagination for large data sets",
+        "Full reference at api.kissflow.com"
+      ],
+      "notes": "Point developers to API documentation."
+    },
+    {
+      "type": "content",
+      "title": "Webhooks",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Outbound webhooks notify external systems of Kissflow events",
+        "Trigger on: item created, approved, rejected, completed, field changed",
+        "Payload includes item data and event metadata",
+        "Configure endpoint URL, headers, and authentication",
+        "Retry logic for failed webhook deliveries",
+        "Use for real-time sync with external databases and systems"
+      ],
+      "notes": "Webhooks complement polling-based API integrations."
+    },
+    {
+      "type": "content",
+      "title": "Integration in Workflows",
+      "image": "https://kissflow.com/hubfs/Production%20Tracking.webp",
+      "bullets": [
+        "Add integration step in workflow designer",
+        "Execute connector action at specific workflow stage",
+        "Conditional integration — only run when field values match",
+        "Map form fields to integration input parameters",
+        "Store integration response in form fields for later steps",
+        "Error branch — route to manual review if integration fails"
+      ],
+      "notes": "Most common pattern: approval triggers external system update."
+    },
+    {
+      "type": "content",
+      "title": "Integrations Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+      "bullets": [
+        "Start with pre-built connectors before building custom ones",
+        "Use service accounts with minimum required permissions",
+        "Test in sandbox environment before production deployment",
+        "Log and monitor integration executions regularly",
+        "Document field mappings and integration architecture",
+        "Plan error handling — what happens when external system is down?"
+      ],
+      "notes": "Close Integrations section."
+    }
+  ]
+}

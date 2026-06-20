@@ -1,0 +1,238 @@
+{
+  "id": "platform-overview",
+  "title": "Platform Overview",
+  "icon": "https://kissflow.com/hubfs/discover%20(1).svg",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Kissflow Platform Overview",
+      "subtitle": "Low-code enterprise platform for building custom apps, workflows, and automations",
+      "image": "https://kissflow.com/hs-fs/hubfs/new-paradigm-1.webp",
+      "notes": "Introduction slide — set context for the full training session."
+    },
+    {
+      "type": "content",
+      "title": "What is Kissflow?",
+      "image": "https://kissflow.com/hubfs/OG%20Homepage.webp",
+      "bullets": [
+        "Enterprise low-code / no-code application development platform",
+        "Build workflows, forms, apps, boards, reports, and portals on one platform",
+        "Designed for citizen developers with IT governance and security controls",
+        "AI-assisted creation for forms, apps, reports, boards, and page components",
+        "Deployable on cloud with enterprise-grade compliance (GDPR, SOC 2)",
+        "Used by 195+ customers including Motorola, NBC Universal, and NielsenIQ"
+      ],
+      "notes": "Source: kissflow.com — Platform Overview"
+    },
+    {
+      "type": "content",
+      "title": "Platform Vision — Build for the AI Era",
+      "image": "https://kissflow.com/hs-fs/hubfs/AI%20for%20Enterprise%20Use%20Cases%20(1).webp",
+      "bullets": [
+        "Generate complete apps or individual building blocks in seconds with AI",
+        "AI works within enterprise constraints to produce deterministic results",
+        "Business users can prototype; IT governs production deployments",
+        "Fusion teams — IT leaders, developers, process owners, business users",
+        "Single platform replaces dozens of disconnected point solutions",
+        "Accelerate digital transformation without sacrificing control"
+      ],
+      "notes": "Emphasize AI as an accelerator, not a replacement for governance."
+    },
+    {
+      "type": "grid",
+      "title": "Core Platform Building Blocks",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Workflows.svg",
+          "label": "Workflows",
+          "desc": "Multi-step approvals and process automation"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Integrations.mp4",
+          "label": "Integrations",
+          "desc": "Connect internal and external systems"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/AI%20App%20Creation%20Video.mp4",
+          "label": "Apps",
+          "desc": "Custom enterprise applications"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Forms%20AI.mp4",
+          "label": "Forms",
+          "desc": "Drag-and-drop data capture"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Reports.svg",
+          "label": "Reports",
+          "desc": "Analytics and dashboards"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Portals.svg",
+          "label": "Portals",
+          "desc": "External partner/customer interfaces"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Boards%202.svg",
+          "label": "Boards",
+          "desc": "Case management and ticketing"
+        }
+      ],
+      "notes": "Walk through each building block — explain when to use each."
+    },
+    {
+      "type": "content",
+      "title": "Application Development Capability",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "Create fully functional apps with visual tools and optional scripting",
+        "Compose pages from processes, dataforms, boards, reports, and datasets",
+        "Role-based navigation and page-level permissions",
+        "Custom page components with JavaScript and AI generation",
+        "Embed workflows directly inside application pages",
+        "Publish apps to specific user groups or the entire organization"
+      ],
+      "notes": "Source: kissflow.com > Solutions > Application Development"
+    },
+    {
+      "type": "content",
+      "title": "Workflow Automation Capability",
+      "image": "https://kissflow.com/hubfs/Workflows.mp4",
+      "bullets": [
+        "Design sequential, parallel, and conditional workflow steps",
+        "Assign participants by user, role, group, or dynamic rules",
+        "Configure approve, reject, send back, and delegate actions",
+        "SLA timers and escalation rules for overdue items",
+        "Email, in-app, and mobile push notifications",
+        "Full audit trail of every action on every process item"
+      ],
+      "notes": "Source: kissflow.com > Solutions > Workflow Automation"
+    },
+    {
+      "type": "content",
+      "title": "Case Management Capability",
+      "image": "https://kissflow.com/hubfs/Board%20Creation%20AI.mp4",
+      "bullets": [
+        "Kanban-style boards for tickets, cases, and work items",
+        "Customizable columns, fields, views, and assignment rules",
+        "SLA tracking with visual indicators for overdue items",
+        "Link boards to processes for escalation and approval flows",
+        "Bulk actions and quick filters for high-volume operations",
+        "Ideal for IT helpdesk, HR requests, and customer support"
+      ],
+      "notes": "Source: kissflow.com > Solutions > Case Management"
+    },
+    {
+      "type": "content",
+      "title": "What Makes Kissflow Different",
+      "image": "https://kissflow.com/hs-fs/hubfs/Proven%20451%25%20ROI.webp",
+      "bullets": [
+        "Proven 451% ROI — Nucleus Research case study (SN Aboitiz Power Group)",
+        "Payback achieved in 2.8 months with multi-app deployment",
+        "Simple AND sophisticated — quick automations to end-to-end solutions",
+        "Mature governance: data policies, app monitoring, audit logs",
+        "Affordable professional services for complex app delivery",
+        "Customers run hundreds of custom solutions on a single platform"
+      ],
+      "notes": "Use customer stories — Puma, SN Aboitiz, Valantic, CaratLane."
+    },
+    {
+      "type": "grid",
+      "title": "Enterprise Application Templates",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Retail%20Store%20Management-1.webp",
+          "label": "Retail Store Management",
+          "desc": "Store operations and audits"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Loan%20Origination.webp",
+          "label": "Loan Origination",
+          "desc": "Financial approval workflows"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Fleet%20Management.webp",
+          "label": "Fleet Management",
+          "desc": "Vehicle tracking and maintenance"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Production%20Tracking.webp",
+          "label": "Production Tracking",
+          "desc": "Manufacturing throughput"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Partner%20Portal.webp",
+          "label": "Partner Portal",
+          "desc": "External partner collaboration"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Claims%20Processing.webp",
+          "label": "Claims Processing",
+          "desc": "Insurance and service claims"
+        }
+      ],
+      "notes": "Show App Store templates available out of the box."
+    },
+    {
+      "type": "content",
+      "title": "Industry Solutions",
+      "image": "https://kissflow.com/hubfs/kissflow-mcdermott.webp",
+      "bullets": [
+        "Oil & Gas — ESG compliance, permit to work, reservoir management, safety",
+        "Retail — store opening, franchise renewals, vendor portal, spend management",
+        "Manufacturing — production tracking, supplier performance, quality inspection",
+        "Healthcare, BFSI, Insurance, FMCG, and Energy verticals supported",
+        "Templates accelerate time-to-value — customize to your processes",
+        "McDermott, CaratLane, Olympus as reference customers"
+      ],
+      "notes": "Source: kissflow.com industry sections."
+    },
+    {
+      "type": "grid",
+      "title": "Governance & Security Modules",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Data%20policies.svg",
+          "label": "Data Policies",
+          "desc": "Centralize and secure organizational data"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/App%20monitoring.svg",
+          "label": "App Monitoring",
+          "desc": "Track performance and usage patterns"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/User%20monitoring.svg",
+          "label": "User Monitoring",
+          "desc": "Login and activity visibility"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Role-based%20access.svg",
+          "label": "Role-Based Access",
+          "desc": "Granular permission controls"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Audit%20log.svg",
+          "label": "Audit Log",
+          "desc": "Timestamped action records"
+        }
+      ],
+      "notes": "IT leaders care about this — spend adequate time here."
+    },
+    {
+      "type": "content",
+      "title": "Kissflow Plans Overview",
+      "image": "https://kissflow.com/hubfs/feature_image.webp",
+      "bullets": [
+        "Basic plan — core processes, apps, boards, and standard integrations",
+        "Enterprise plan — portals, connector builder, advanced governance, backup",
+        "Feature availability varies by plan (noted in Community documentation)",
+        "Contact sales for plan comparison and enterprise requirements",
+        "Trial and demo environments available for evaluation",
+        "Upgrade path as organizational adoption grows"
+      ],
+      "notes": "Reference plan badges in community articles (Basic vs Enterprise)."
+    }
+  ]
+}

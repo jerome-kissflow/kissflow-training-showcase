@@ -1,0 +1,164 @@
+{
+  "id": "boards",
+  "title": "Boards & Case Management",
+  "icon": "https://kissflow.com/hubfs/Boards%202.svg",
+  "color": "#415569",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Boards & Case Management",
+      "subtitle": "Visual kanban boards for tickets, cases, and work tracking",
+      "image": "https://kissflow.com/hubfs/Boards%202.svg",
+      "notes": "Source: community.kissflow.com > User guide > Boards"
+    },
+    {
+      "type": "content",
+      "title": "What are Kissflow Boards?",
+      "image": "https://kissflow.com/hubfs/Ticketing%20System.svg",
+      "bullets": [
+        "Kanban-style visual boards for case and ticket management",
+        "Cards represent work items; columns represent stages/statuses",
+        "Customizable fields, views, filters, and assignment rules",
+        "Available on Basic and Enterprise plans",
+        "Standalone boards or embedded in Kissflow Apps",
+        "Complement processes — boards for ongoing work, processes for approvals"
+      ],
+      "notes": "When to use boards vs processes — key decision point."
+    },
+    {
+      "type": "content",
+      "title": "Board Builder",
+      "image": "https://kissflow.com/hubfs/Board%20Creation%20AI.mp4",
+      "bullets": [
+        "Define columns (stages) — Open, In Progress, On Hold, Resolved, Closed",
+        "Configure card fields — title, description, priority, assignee, due date",
+        "Custom fields: dropdown, date, user, attachment, and more",
+        "Column rules — auto-assign, WIP limits, required fields per column",
+        "Card templates for consistent data capture",
+        "Board settings: permissions, notifications, and SLA configuration"
+      ],
+      "notes": "Demo building an IT helpdesk board."
+    },
+    {
+      "type": "content",
+      "title": "Working with Board Cards",
+      "image": "https://kissflow.com/hubfs/Incident%20management.svg",
+      "bullets": [
+        "Create cards manually or via automation/integration",
+        "Drag and drop cards between columns to update status",
+        "Assign cards to users or groups",
+        "Add comments, attachments, and activity history",
+        "Filter and search cards by any field value",
+        "Bulk update — move, assign, or close multiple cards"
+      ],
+      "notes": "Show card detail view and drag-drop between columns."
+    },
+    {
+      "type": "content",
+      "title": "SLA and Assignment Rules",
+      "image": "https://kissflow.com/hubfs/Maintenance%20Work%20Order.svg",
+      "bullets": [
+        "Define SLA targets per column or priority level",
+        "Visual indicators for approaching and breached SLAs",
+        "Auto-assignment rules based on category, skill, or round-robin",
+        "Escalation notifications when SLA is breached",
+        "Business hours configuration for SLA calculations",
+        "SLA reports for team performance tracking"
+      ],
+      "notes": "SLAs are critical for helpdesk and support boards."
+    },
+    {
+      "type": "content",
+      "title": "AI Board Creation",
+      "image": "https://kissflow.com/hubfs/Board%20Creation%20AI.mp4",
+      "bullets": [
+        "Describe your board requirements in natural language",
+        "AI generates columns, fields, and board structure",
+        "Refine with visual board editor after generation",
+        "Accelerates setup from hours to minutes",
+        "Iterate on AI output — add columns, fields, and rules",
+        "Reference kissflow.com AI Board Creation capability"
+      ],
+      "notes": "Demo AI board creation if available in environment."
+    },
+    {
+      "type": "grid",
+      "title": "Common Board Use Cases",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/Incident%20management.svg",
+          "label": "Incident Management",
+          "desc": "Track and resolve IT/ops incidents"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Incident%20management.svg",
+          "label": "Customer Complaints",
+          "desc": "Manage customer issues and resolutions"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Maintenance%20Work%20Order.svg",
+          "label": "Work Orders",
+          "desc": "Field service and maintenance tracking"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/IT%20Asset%20Management-1.svg",
+          "label": "IT Asset Management",
+          "desc": "Hardware/software lifecycle"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Safety%20Incidents.svg",
+          "label": "Safety Incidents",
+          "desc": "Workplace safety reporting"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Ticketing%20System.svg",
+          "label": "Helpdesk",
+          "desc": "Internal IT and HR support tickets"
+        }
+      ],
+      "notes": "Source: kissflow.com industry application templates."
+    },
+    {
+      "type": "content",
+      "title": "Boards in Apps",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "Embed board component on app pages",
+        "Filter board view by user, team, or category at page level",
+        "Combine board with process components on same page",
+        "Initiate process from board card for escalation workflows",
+        "Board reports embedded alongside board view",
+        "Role-based board visibility within app navigation"
+      ],
+      "notes": "Show app page with board + related process side by side."
+    },
+    {
+      "type": "content",
+      "title": "Board Reports",
+      "image": "https://kissflow.com/hubfs/CIO-Reports.png",
+      "bullets": [
+        "Create reports from board card data",
+        "Track volume, resolution time, and SLA compliance",
+        "Charts: cards by status, assignee workload, trend over time",
+        "Export for management reporting",
+        "Schedule automated delivery to team leads",
+        "Embed board reports on app dashboard pages"
+      ],
+      "notes": "Board reporting mirrors process reporting capabilities."
+    },
+    {
+      "type": "content",
+      "title": "Boards Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Value%20to%20Delivery.webp",
+      "bullets": [
+        "Limit columns to 5-7 for clarity — too many columns confuse users",
+        "Define clear column entry/exit criteria",
+        "Use priority and SLA fields consistently across the team",
+        "Review and archive resolved cards regularly",
+        "Train team on drag-drop and card field requirements",
+        "Link to processes only when formal approval is needed"
+      ],
+      "notes": "Close Boards section."
+    }
+  ]
+}

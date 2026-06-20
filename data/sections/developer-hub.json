@@ -1,0 +1,155 @@
+{
+  "id": "developer-hub",
+  "title": "Developer Hub",
+  "icon": "https://kissflow.com/hubfs/learn%20(2).svg",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Kissflow Developer Hub",
+      "subtitle": "APIs, SDK, and custom scripting for programmatic platform access",
+      "image": "https://kissflow.com/hubfs/KF_IT.png",
+      "notes": "Source: developers.kissflow.com, api.kissflow.com"
+    },
+    {
+      "type": "content",
+      "title": "Developer Hub Overview",
+      "image": "https://kissflow.com/hubfs/learn%20(2).svg",
+      "bullets": [
+        "developers.kissflow.com — central hub for all developer resources",
+        "API documentation at api.kissflow.com",
+        "JavaScript SDK for custom app development",
+        "Community Developer guide for patterns and examples",
+        "GitHub repositories with sample code and SDK source",
+        "Supports multiple programming languages via REST API"
+      ],
+      "notes": "Bookmark both developer sites for the team."
+    },
+    {
+      "type": "content",
+      "title": "Kissflow REST API",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "RESTful API with JSON request/response format",
+        "Base URL: https://api.kissflow.com (account-specific endpoints)",
+        "Authentication via API key or OAuth token",
+        "Endpoints for processes, dataforms, boards, users, groups, reports",
+        "CRUD operations on process items and dataform records",
+        "Pagination, filtering, and sorting on list endpoints"
+      ],
+      "notes": "Walk through API docs structure at api.kissflow.com."
+    },
+    {
+      "type": "content",
+      "title": "API Authentication",
+      "image": "https://kissflow.com/hubfs/Audit%20Logs.webp",
+      "bullets": [
+        "API keys generated in Admin → Authentication Keys",
+        "Service accounts for server-to-server integrations",
+        "OAuth 2.0 for user-delegated access patterns",
+        "Keys scoped to minimum required permissions",
+        "Rotate keys regularly as security best practice",
+        "Never embed API keys in client-side page components"
+      ],
+      "notes": "Source: community.kissflow.com > Authentication Keys, Service account"
+    },
+    {
+      "type": "content",
+      "title": "Common API Operations",
+      "image": "https://kissflow.com/hubfs/Workflows.mp4",
+      "bullets": [
+        "Create process item: POST with form field values",
+        "Get item status and history: GET item by ID",
+        "List items with filters: GET with query parameters",
+        "Update dataform record: PUT/PATCH record endpoint",
+        "List users and groups: GET directory endpoints",
+        "Trigger workflow action: POST approve/reject endpoints"
+      ],
+      "notes": "Show curl or Postman example for creating a process item."
+    },
+    {
+      "type": "content",
+      "title": "Kissflow JavaScript SDK",
+      "image": "https://kissflow.com/hubfs/learn%20(1).svg",
+      "bullets": [
+        "Client-side SDK for custom page components in apps",
+        "Access form data, navigate pages, call platform APIs",
+        "Event handlers for component lifecycle and user interactions",
+        "Simplify no-code tasks with programmatic control",
+        "Seamless interaction between custom UI and platform data",
+        "SDK resources at developers.kissflow.com"
+      ],
+      "notes": "SDK is for app page components — not standalone Node.js apps."
+    },
+    {
+      "type": "content",
+      "title": "Custom Scripting in Apps",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "Client-side JavaScript in custom page components",
+        "Access kf.context, kf.app, and component APIs",
+        "React to form field changes, button clicks, page load events",
+        "Call Kissflow APIs from within scripts for dynamic behavior",
+        "Server-side scripting for advanced data processing",
+        "Community Developer guide covers common patterns"
+      ],
+      "notes": "Demo a simple script that filters a data table on button click."
+    },
+    {
+      "type": "content",
+      "title": "Webhooks and Event-Driven Integration",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Subscribe to platform events via webhook configuration",
+        "Events: item created, updated, approved, rejected, completed",
+        "Webhook payload includes full item data and event metadata",
+        "Verify webhook signatures for security",
+        "Build event-driven architectures with external message queues",
+        "Complement polling-based API integrations"
+      ],
+      "notes": "Webhooks are the real-time alternative to API polling."
+    },
+    {
+      "type": "content",
+      "title": "External Data Objects",
+      "image": "https://kissflow.com/hubfs/Data%20Policies.webp",
+      "bullets": [
+        "Connect external databases and APIs as data sources in apps",
+        "Display external data in app page components",
+        "Read-only or read-write depending on configuration",
+        "Use for integrating legacy systems without full migration",
+        "Documented in Community under External data object tag",
+        "Enterprise feature for complex integration scenarios"
+      ],
+      "notes": "Source: community.kissflow.com > External data object glossary"
+    },
+    {
+      "type": "content",
+      "title": "API Rate Limits and Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+      "bullets": [
+        "Respect API rate limits — implement exponential backoff",
+        "Use batch endpoints where available for bulk operations",
+        "Cache frequently accessed reference data locally",
+        "Log API calls for debugging and audit purposes",
+        "Use service accounts with scoped permissions",
+        "Test integrations in sandbox before production deployment"
+      ],
+      "notes": "Developer hygiene — prevents production incidents."
+    },
+    {
+      "type": "content",
+      "title": "Developer Resources and Next Steps",
+      "image": "https://kissflow.com/hubfs/top%20resources.svg",
+      "bullets": [
+        "api.kissflow.com — full API reference with try-it-out",
+        "developers.kissflow.com — SDK docs and getting started guides",
+        "Community Developer guide — platform-specific patterns",
+        "GitHub — SDK source and sample projects",
+        "Kissflow Academy Integrations Expert learning path",
+        "Support channel for API-specific technical questions"
+      ],
+      "notes": "Close Developer Hub section."
+    }
+  ]
+}

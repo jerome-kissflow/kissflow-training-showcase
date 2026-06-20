@@ -1,0 +1,135 @@
+{
+  "id": "academy",
+  "title": "Kissflow Academy",
+  "icon": "https://kissflow.com/hubfs/top%20resources.svg",
+  "color": "#C72C91",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Kissflow Academy",
+      "subtitle": "Structured learning paths for platform mastery",
+      "image": "https://kissflow.com/hubfs/resource_menu.webp",
+      "notes": "Source: academy.kissflow.com"
+    },
+    {
+      "type": "content",
+      "title": "Academy Platform Overview",
+      "image": "https://kissflow.com/hubfs/Section%201.webp",
+      "bullets": [
+        "Comprehensive learning platform at academy.kissflow.com",
+        "Self-paced courses with hands-on exercises",
+        "Learning paths from beginner to expert certification",
+        "Covers Apps, Workflow Automation, and Integrations",
+        "Free access for Kissflow account holders",
+        "Progress tracking and course completion certificates"
+      ],
+      "notes": "Encourage all trainees to enroll before leaving today."
+    },
+    {
+      "type": "grid",
+      "title": "Expert Learning Paths",
+      "items": [
+        {
+          "icon": "https://kissflow.com/hubfs/kissflow_logo_web.svg",
+          "label": "Kissflow Expert",
+          "desc": "Complete path to full platform mastery"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Workflows.svg",
+          "label": "Workflow Expert",
+          "desc": "Design workflows and integrate systems"
+        },
+        {
+          "icon": "https://kissflow.com/hubfs/Integrations.mp4",
+          "label": "Integrations Expert",
+          "desc": "Advanced citizen and IT developer features"
+        }
+      ],
+      "notes": "Three progressive paths — recommend starting with Workflow Expert."
+    },
+    {
+      "type": "content",
+      "title": "Apps Course",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "Build no-code and low-code applications end to end",
+        "Covers page design, navigation, components, and publishing",
+        "Dataform creation and view configuration exercises",
+        "Embed processes, boards, and reports in apps",
+        "Custom scripting introduction for page components",
+        "Capstone project: build a complete departmental app"
+      ],
+      "notes": "Academy.kissflow.com — Apps course"
+    },
+    {
+      "type": "content",
+      "title": "Workflow Automation Course",
+      "image": "https://kissflow.com/hubfs/Workflows.mp4",
+      "bullets": [
+        "Learn to design forms, workflows, and automate approvals",
+        "Step-by-step process builder exercises",
+        "Conditional routing and parallel branch labs",
+        "Notification and SLA configuration practice",
+        "Process report creation and scheduling",
+        "Best starting point for new Kissflow users"
+      ],
+      "notes": "Academy.kissflow.com — Workflow automation course"
+    },
+    {
+      "type": "content",
+      "title": "Integrations Course",
+      "image": "https://kissflow.com/hubfs/Integrations.mp4",
+      "bullets": [
+        "Exchange information within and beyond your Kissflow account",
+        "Pre-built connector configuration exercises",
+        "REST API authentication and first API call lab",
+        "Webhook setup and payload handling",
+        "Integration in workflow steps — hands-on lab",
+        "Designed for citizen and IT developers"
+      ],
+      "notes": "Academy.kissflow.com — Integrations course"
+    },
+    {
+      "type": "content",
+      "title": "Community Resources",
+      "image": "https://kissflow.com/hubfs/learn%20(1).svg",
+      "bullets": [
+        "community.kissflow.com — 565+ documentation articles",
+        "Product Updates: announcements, roadmap, tips and tricks",
+        "Pre-release notes for upcoming features",
+        "Follow categories for email notifications on new content",
+        "Ask questions and share best practices with peers",
+        "Kissflow Pulse Podcast for industry insights and interviews"
+      ],
+      "notes": "Community complements Academy for ongoing learning."
+    },
+    {
+      "type": "content",
+      "title": "Recommended Learning Sequence",
+      "image": "https://kissflow.com/hubfs/watch-video-1.svg",
+      "bullets": [
+        "Week 1-2: Workflow Automation course + submit first process item",
+        "Week 3-4: Apps course + build first app with dataform views",
+        "Week 5-6: Integrations course + configure first connector",
+        "Ongoing: Community documentation for specific feature deep-dives",
+        "Month 2+: Pursue Kissflow Expert learning path for certification",
+        "Attend Kissflow events and webinars for advanced topics"
+      ],
+      "notes": "Give trainees a concrete post-training learning plan."
+    },
+    {
+      "type": "content",
+      "title": "Training Complete — Next Steps",
+      "image": "https://kissflow.com/hubfs/ROI-Report-1.webp",
+      "bullets": [
+        "Enroll in Kissflow Academy — start Workflow Automation course today",
+        "Build your first process or app in a sandbox environment",
+        "Join the Community and introduce yourself to fellow users",
+        "Bookmark community.kissflow.com for documentation reference",
+        "Explore Developer Hub if your role involves API/SDK work",
+        "Schedule follow-up training for advanced topics (Dataforms, Portals, Governance)"
+      ],
+      "notes": "Thank trainees and open Q&A session."
+    }
+  ]
+}

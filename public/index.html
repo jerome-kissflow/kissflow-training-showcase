@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kissflow Training Showcase</title>
+  <link rel="icon" href="https://kissflow.com/hubfs/kissflow-fav-new.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="header-brand" id="header-brand">
+        <span class="logo-wrap">
+          <img id="header-logo" src="https://kissflow.com/hubfs/kissflow_logo_web.svg" alt="Kissflow" class="logo" />
+        </span>
+        <h1 class="header-title">Training Showcase</h1>
+      </div>
+      <nav class="header-nav" id="header-nav"></nav>
+      <div class="header-actions">
+        <button class="btn btn-ghost" id="btn-fullscreen" title="Toggle fullscreen (F)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+        </button>
+        <button class="btn btn-ghost" id="btn-notes" title="Toggle speaker notes (N)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Notes
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="view-home" class="view active">
+        <div class="home-banner">
+          <img src="https://kissflow.com/hubfs/banner.webp" alt="" class="home-banner-img" />
+        </div>
+        <div class="section-grid" id="section-grid"></div>
+      </section>
+
+      <section id="view-presenter" class="view">
+        <div class="presenter-layout">
+          <aside class="presenter-sidebar" id="presenter-sidebar">
+            <div class="sidebar-header">
+              <h3 id="sidebar-section-title"></h3>
+              <p id="sidebar-slide-count"></p>
+            </div>
+            <ol class="slide-thumbs" id="slide-thumbs"></ol>
+          </aside>
+          <div class="presenter-main">
+            <div class="slide-stage" id="slide-stage"></div>
+            <div class="presenter-controls">
+              <button class="btn btn-ghost" id="btn-prev" title="Previous (←)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                Previous
+              </button>
+              <div class="slide-counter" id="slide-counter">1 / 1</div>
+              <button class="btn btn-primary" id="btn-next" title="Next (→)">
+                Next
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes" id="speaker-notes">
+          <h4>Speaker Notes</h4>
+          <p id="notes-text"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p class="footer-hint">← → navigate slides · F fullscreen · N notes · Esc back</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

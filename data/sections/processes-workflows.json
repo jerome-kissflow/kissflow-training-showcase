@@ -1,0 +1,225 @@
+{
+  "id": "processes-workflows",
+  "title": "Processes & Workflows",
+  "icon": "https://kissflow.com/hubfs/Workflows.svg",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Processes & Workflows",
+      "subtitle": "Design, automate, and manage business processes end to end",
+      "image": "https://kissflow.com/hubfs/Workflows.mp4",
+      "notes": "Source: community.kissflow.com > User guide > Processes"
+    },
+    {
+      "type": "content",
+      "title": "What is a Kissflow Process?",
+      "image": "https://kissflow.com/hs-fs/hubfs/Simple%20and%20Sophisticated%20(1).webp",
+      "bullets": [
+        "A process combines a Form + Workflow + Reports into one solution",
+        "Automates multi-step business operations with defined participants",
+        "Each submission creates a process item that flows through steps",
+        "Supports sequential, parallel, and conditional branching",
+        "Available on Basic and Enterprise plans",
+        "Can be standalone or embedded inside Kissflow Apps"
+      ],
+      "notes": "Explain the three pillars: form, workflow, reports."
+    },
+    {
+      "type": "content",
+      "title": "Process Builder Interface",
+      "image": "https://kissflow.com/hubfs/Section%202.webp",
+      "bullets": [
+        "Left panel: Form, Workflow, Reports, Settings, and Permissions tabs",
+        "Center canvas: visual workflow designer with drag-and-drop steps",
+        "Right panel: step configuration — participants, actions, conditions",
+        "Form designer integrated — build data capture alongside workflow",
+        "Preview mode to test the process before publishing",
+        "Version history and draft/publish workflow for safe changes"
+      ],
+      "notes": "Demo the process builder layout live."
+    },
+    {
+      "type": "content",
+      "title": "Workflow Step Types",
+      "image": "https://kissflow.com/hubfs/Workflows.svg",
+      "bullets": [
+        "Start step — entry point when initiator submits the form",
+        "Approval step — participant approves, rejects, or sends back",
+        "Input step — collect additional data from assigned user",
+        "Parallel branch — multiple steps execute simultaneously",
+        "Condition step — route based on form field values or rules",
+        "End step — mark item complete and trigger post-completion actions"
+      ],
+      "notes": "Draw a simple 3-step approval on the whiteboard or screen."
+    },
+    {
+      "type": "content",
+      "title": "Assigning Participants",
+      "image": "https://kissflow.com/hubfs/User%20Monitoring.webp",
+      "bullets": [
+        "Assign by specific user, group, role, or form field value",
+        "Dynamic assignment — manager of initiator, department head, etc.",
+        "Multiple participants per step with all-must-approve or any-one rules",
+        "Substitute/delegate configuration for absence handling",
+        "External participants via email for steps outside the organization",
+        "Watcher support — inform stakeholders without workflow involvement"
+      ],
+      "notes": "Cover dynamic assignment — very commonly used pattern."
+    },
+    {
+      "type": "content",
+      "title": "Process Item Lifecycle",
+      "image": "https://kissflow.com/hubfs/Loan%20Origination.webp",
+      "bullets": [
+        "Initiator fills form and clicks Submit — item enters workflow",
+        "Item moves step-by-step based on workflow design and conditions",
+        "Each participant receives notification and sees item in My Tasks",
+        "Actions: Approve, Reject, Send Back, Save Draft, Delegate",
+        "Status tracked: In Progress, Completed, Rejected, Withdrawn",
+        "Full activity log with timestamps, comments, and attachments"
+      ],
+      "notes": "Demo submitting a leave request or purchase order process."
+    },
+    {
+      "type": "content",
+      "title": "Notifications and SLAs",
+      "image": "https://kissflow.com/hubfs/App%20Monitoring.webp",
+      "bullets": [
+        "Email notifications on assignment, approval, rejection, and completion",
+        "In-app notification bell and My Tasks integration",
+        "Mobile push notifications via Kissflow mobile app",
+        "SLA timers — define expected completion time per step",
+        "Escalation rules — notify manager when SLA is breached",
+        "Reminder emails for pending items approaching deadline"
+      ],
+      "notes": "Show notification settings in process configuration."
+    },
+    {
+      "type": "content",
+      "title": "Process Permissions",
+      "image": "https://kissflow.com/hubfs/Role-based%20access.svg",
+      "bullets": [
+        "Process Admin — full edit access to form, workflow, and settings",
+        "Initiator — can start new items and view own submissions",
+        "Participant — can act on assigned steps only",
+        "Report Viewer — access reports without process participation",
+        "Field-level permissions per workflow step (show/hide/edit)",
+        "Item-level access — initiator sees all, others see assigned steps"
+      ],
+      "notes": "Permissions are step-aware — same field can be read-only at one step, editable at another."
+    },
+    {
+      "type": "content",
+      "title": "Process Watchers",
+      "image": "https://kissflow.com/hubfs/User%20monitoring.svg",
+      "bullets": [
+        "Watchers stay informed without participating in the workflow",
+        "Add watchers when creating an item or from item detail view",
+        "Watchers receive notifications on status changes and comments",
+        "No approval rights — visibility and awareness only",
+        "Useful for managers, auditors, compliance, and cross-functional teams",
+        "Also available when processes are embedded inside Kissflow Apps"
+      ],
+      "notes": "Source: community.kissflow.com — Process watchers (Jun 2026)"
+    },
+    {
+      "type": "content",
+      "title": "Lookup Columns in Process Tables",
+      "image": "https://kissflow.com/hubfs/Inventory%20management-Oct-06-2025-06-56-19-2386-AM.svg",
+      "bullets": [
+        "Lookup fields bring data from other flows and datasets into forms",
+        "New feature: lookup column values visible directly in table rows",
+        "See multiple lookup details at a glance without opening each row",
+        "Reduces clicks when working with line-item tables (PO lines, expenses)",
+        "Configure lookup display columns in form designer",
+        "Announced June 2026 — Product announcement"
+      ],
+      "notes": "Source: community.kissflow.com — Introducing lookup columns in tables"
+    },
+    {
+      "type": "content",
+      "title": "Process Reports — Overview",
+      "image": "https://kissflow.com/hubfs/CIO-Reports.png",
+      "bullets": [
+        "Every process can have multiple reports for data analysis",
+        "Reports pull data from completed and in-progress process items",
+        "Access reports from process menu or embed in apps",
+        "Report permissions separate from process participation",
+        "Export to CSV, Excel, and PDF for external sharing",
+        "Schedule automated report delivery via email"
+      ],
+      "notes": "KEY SLIDE — Reports are a core part of every process solution."
+    },
+    {
+      "type": "content",
+      "title": "Creating Process Reports",
+      "image": "https://kissflow.com/hubfs/AI%20Report%20Creation.mp4",
+      "bullets": [
+        "Open process builder → Reports tab → Create new report",
+        "Select fields from form, system fields, and workflow metadata",
+        "Apply filters: status, date range, participant, department, etc.",
+        "Choose visualization: table, bar chart, line chart, pie chart, pivot",
+        "Group and aggregate data — count, sum, average, min, max",
+        "AI-assisted report creation — describe report in natural language"
+      ],
+      "notes": "Demo creating a 'Pending Approvals by Department' report."
+    },
+    {
+      "type": "content",
+      "title": "Process Report Types and Use Cases",
+      "image": "https://kissflow.com/hubfs/Production%20Tracking.webp",
+      "bullets": [
+        "Status reports — items by stage, overdue, completed this week",
+        "Performance reports — average approval time per step/participant",
+        "Volume reports — submissions per month, department, category",
+        "Compliance reports — rejected items, send-backs, SLA breaches",
+        "Pivot reports — cross-tabulate dimensions for executive dashboards",
+        "Embed reports in app pages for role-based operational dashboards"
+      ],
+      "notes": "Give examples relevant to the audience's industry."
+    },
+    {
+      "type": "content",
+      "title": "Report Scheduling and Distribution",
+      "image": "https://kissflow.com/hubfs/Reports.svg",
+      "bullets": [
+        "Schedule reports to run daily, weekly, or monthly",
+        "Email report as attachment to defined recipient list",
+        "Combine multiple reports into dashboard views within apps",
+        "Report viewers do not need process initiator/participant access",
+        "Export large datasets for BI tools (Power BI, Tableau)",
+        "API access to report data for custom integrations"
+      ],
+      "notes": "Show schedule configuration in report settings."
+    },
+    {
+      "type": "content",
+      "title": "Processes Inside Apps",
+      "image": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+      "bullets": [
+        "Embed processes as components on app pages",
+        "Initiate and track process items without leaving the app context",
+        "Combine process data with dataforms, boards, and reports on one page",
+        "App-level navigation ties multiple processes into one solution",
+        "Process watchers work inside app-embedded processes",
+        "Role-based page visibility controls who sees which processes"
+      ],
+      "notes": "Source: community.kissflow.com > Processes in apps"
+    },
+    {
+      "type": "content",
+      "title": "Process Best Practices",
+      "image": "https://kissflow.com/hs-fs/hubfs/Value%20to%20Delivery.webp",
+      "bullets": [
+        "Start simple — 3-5 steps, expand as requirements clarify",
+        "Use clear step names and instructions for participants",
+        "Test with a small pilot group before organization-wide rollout",
+        "Define SLAs early — they drive accountability and reporting",
+        "Create at least one operational report before going live",
+        "Document the process purpose and escalation path for users"
+      ],
+      "notes": "Close Processes section — transition to Apps or Forms next."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "colors": {
+    "primary": "#0565FF",
+    "primaryDark": "#0056B3",
+    "primaryLight": "#0085FF",
+    "accent": "#C72C91",
+    "accentLight": "#D341A5",
+    "navy": "#1D2B36",
+    "slate": "#415569",
+    "bg": "#F9FAFA",
+    "border": "#D3DEE8",
+    "white": "#FFFFFF"
+  },
+  "logo": "https://kissflow.com/hubfs/kissflow_logo_web.svg",
+  "favicon": "https://kissflow.com/hubfs/kissflow-fav-new.png",
+  "icons": {
+    "workflows": "https://kissflow.com/hubfs/Workflows.svg",
+    "integrations": "https://kissflow.com/hubfs/features%20(1).svg",
+    "apps": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+    "forms": "https://kissflow.com/hubfs/feature_image.webp",
+    "reports": "https://kissflow.com/hubfs/Reports.svg",
+    "portals": "https://kissflow.com/hubfs/Portals.svg",
+    "boards": "https://kissflow.com/hubfs/Boards%202.svg",
+    "dataPolicies": "https://kissflow.com/hubfs/Data%20policies.svg",
+    "discover": "https://kissflow.com/hubfs/discover%20(1).svg",
+    "features": "https://kissflow.com/hubfs/features%20(1).svg",
+    "governance": "https://kissflow.com/hubfs/App%20monitoring.svg",
+    "learn": "https://kissflow.com/hubfs/learn%20(2).svg",
+    "resources": "https://kissflow.com/hubfs/top%20resources.svg",
+    "video": "https://kissflow.com/hubfs/watch-video-1.svg"
+  },
+  "images": {
+    "hero": "https://kissflow.com/hs-fs/hubfs/new-paradigm-1.webp",
+    "platform": "https://kissflow.com/hubfs/OG%20Homepage.webp",
+    "aiEnterprise": "https://kissflow.com/hs-fs/hubfs/AI%20for%20Enterprise%20Use%20Cases%20(1).webp",
+    "governance": "https://kissflow.com/hs-fs/hubfs/Mature%20Governance%20Tools%20(1).webp",
+    "roi": "https://kissflow.com/hs-fs/hubfs/Proven%20451%25%20ROI.webp",
+    "simpleSophisticated": "https://kissflow.com/hs-fs/hubfs/Simple%20and%20Sophisticated%20(1).webp",
+    "resourceMenu": "https://kissflow.com/hubfs/resource_menu.webp",
+    "featureImage": "https://kissflow.com/hubfs/feature_image.webp",
+    "kfIt": "https://kissflow.com/hubfs/KF_IT.png",
+    "banner": "https://kissflow.com/hubfs/banner.webp",
+    "lastSection": "https://kissflow.com/hubfs/Last%20Section%20%281%29.webp",
+    "section1": "https://kissflow.com/hubfs/Section%201.webp",
+    "section1Tab": "https://kissflow.com/hubfs/Section%201%20Tab.webp",
+    "section1Mobile": "https://kissflow.com/hubfs/Section%201%20Mobile.webp",
+    "section2": "https://kissflow.com/hubfs/Section%202.webp",
+    "cheeta": "https://kissflow.com/hubfs/Cheeta%20529x400.webp",
+    "cioReports": "https://kissflow.com/hubfs/CIO-Reports.png",
+    "retailStore": "https://kissflow.com/hubfs/Retail%20Store%20Management-1.webp",
+    "newProductApp": "https://kissflow.com/hubfs/New%20Product%20Dev%20App.webp",
+    "decisionTable": "https://kissflow.com/hubfs/DT.png"
+  },
+  "videos": {
+    "workflows": "https://kissflow.com/hubfs/Workflows.mp4",
+    "integrations": "https://kissflow.com/hubfs/Integrations.mp4",
+    "apps": "https://kissflow.com/hubfs/AI%20App%20Creation%20Video.mp4",
+    "forms": "https://kissflow.com/hubfs/Forms%20AI.mp4",
+    "reports": "https://kissflow.com/hubfs/AI%20Report%20Creation.mp4",
+    "portals": "https://kissflow.com/hubfs/AI%20Portal%20Creation%20No%20Background.mp4",
+    "boards": "https://kissflow.com/hubfs/Board%20Creation%20AI.mp4"
+  }
+}

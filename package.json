@@ -1,0 +1,19 @@
+{
+  "name": "kissflow-training-showcase",
+  "version": "1.0.0",
+  "description": "Kissflow training showcase app with modules, sections, and presentation slides",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "node scripts/build-static.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["kissflow", "training", "showcase"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

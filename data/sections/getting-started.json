@@ -1,0 +1,141 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "icon": "https://kissflow.com/hubfs/watch-video-1.svg",
+  "color": "#0565FF",
+  "slides": [
+    {
+      "type": "title",
+      "title": "Getting Started with Kissflow",
+      "subtitle": "Account setup, navigation, and your first steps on the platform",
+      "image": "https://kissflow.com/hubfs/Section%201.webp",
+      "notes": "Source: community.kissflow.com > Getting started"
+    },
+    {
+      "type": "content",
+      "title": "Signing In and Account Access",
+      "image": "https://kissflow.com/hubfs/OG%20Homepage.webp",
+      "bullets": [
+        "Access Kissflow via your organization's unique account URL",
+        "Sign in with corporate SSO, Google, or email credentials",
+        "Account admins manage users, groups, and roles from Admin panel",
+        "Multi-factor authentication supported for enterprise security",
+        "Mobile apps available for iOS and Android",
+        "PWA browser access for mobile without app installation"
+      ],
+      "notes": "Demo the login flow and account URL structure."
+    },
+    {
+      "type": "content",
+      "title": "Home Page and Navigation",
+      "image": "https://kissflow.com/hubfs/Section%201%20Tab.webp",
+      "bullets": [
+        "Home page shows apps, processes, and boards you have access to",
+        "Left navigation: Home, My Tasks, Admin, App Store, and more",
+        "My Tasks — centralized inbox for all pending approvals and actions",
+        "Global search finds processes, apps, items, and documentation",
+        "Quick create button (+) to start new process items or access builders",
+        "Notification bell for real-time updates on assigned items"
+      ],
+      "notes": "Walk through the UI live — this is critical for new users."
+    },
+    {
+      "type": "content",
+      "title": "My Tasks — Your Work Inbox",
+      "image": "https://kissflow.com/hubfs/Ticketing%20System.svg",
+      "bullets": [
+        "All pending approvals, reviews, and inputs in one unified inbox",
+        "Filter by process, app, priority, due date, and status",
+        "Bulk approve or take action on multiple items where permitted",
+        "Delegate tasks to colleagues when you are unavailable",
+        "Mobile notifications ensure you never miss a critical approval",
+        "Completed tasks move to history with full audit trail"
+      ],
+      "notes": "Source: community.kissflow.com > User guide > Global My Tasks"
+    },
+    {
+      "type": "content",
+      "title": "User Roles and Permissions",
+      "image": "https://kissflow.com/hubfs/Role-based%20Access.webp",
+      "bullets": [
+        "Super Admin — full account control and governance settings",
+        "Process Admin — manage specific processes and their settings",
+        "App Admin — build and publish apps within assigned scope",
+        "User — initiate items, complete assigned tasks, view permitted data",
+        "Custom roles defined per process, app, board, or dataform",
+        "Group-based permissions simplify large organization management"
+      ],
+      "notes": "Explain role hierarchy — who can build vs who can use."
+    },
+    {
+      "type": "content",
+      "title": "Community Documentation Map",
+      "image": "https://kissflow.com/hubfs/learn%20(1).svg",
+      "bullets": [
+        "🎬 Getting started — Onboarding, Developer guide, Mobile guide",
+        "📒 User guide — Apps, Processes, Boards, Forms, Integrations, Analytics",
+        "🔎 Quick references — FAQs, Glossary, Discontinued services",
+        "💼 Troubleshooting — Tips, tricks, and common issue resolution",
+        "Product Updates — Announcements, roadmap, pre-release notes",
+        "565+ documentation posts — searchable and categorized"
+      ],
+      "notes": "Bookmark community.kissflow.com for ongoing reference."
+    },
+    {
+      "type": "content",
+      "title": "Developer Guide Essentials",
+      "image": "https://kissflow.com/hubfs/learn%20(2).svg",
+      "bullets": [
+        "Developer guide under Getting started in Community",
+        "Covers JavaScript SDK, custom scripting, and API patterns",
+        "Service accounts for secure API authentication",
+        "Authentication keys management in Admin settings",
+        "Links to developers.kissflow.com and api.kissflow.com",
+        "GitHub resources for SDK examples and samples"
+      ],
+      "notes": "For technical trainees — point to Developer Hub."
+    },
+    {
+      "type": "content",
+      "title": "Mobile Guide Highlights",
+      "image": "https://kissflow.com/hubfs/Section%201%20Mobile.webp",
+      "bullets": [
+        "Native iOS and Android apps for task management on the go",
+        "Submit forms, approve items, and track progress from mobile",
+        "Push notifications for new assignments and SLA breaches",
+        "Offline form draft support (where configured)",
+        "PWA option for browser-based mobile experience",
+        "Mobile guide in Community covers setup and troubleshooting"
+      ],
+      "notes": "Source: community.kissflow.com > Mobile guide"
+    },
+    {
+      "type": "content",
+      "title": "First Week Action Plan",
+      "image": "https://kissflow.com/hubfs/discover%20(1).svg",
+      "bullets": [
+        "Day 1: Explore home page, complete profile, review My Tasks",
+        "Day 2: Submit a test item in an existing process",
+        "Day 3: Browse App Store templates relevant to your department",
+        "Day 4: Enroll in Kissflow Academy — Workflow Automation course",
+        "Day 5: Join Community, follow categories, introduce yourself",
+        "Week 2: Shadow a process builder or attend advanced training"
+      ],
+      "notes": "Give trainees a concrete plan to follow after this session."
+    },
+    {
+      "type": "content",
+      "title": "Support and Help Resources",
+      "image": "https://kissflow.com/hubfs/Last%20Section%20%281%29.webp",
+      "bullets": [
+        "In-app support chat for technical and billing questions",
+        "Community forums for peer-to-peer help and best practices",
+        "Kissflow Academy for structured self-paced learning",
+        "Kissflow Pulse Podcast for industry trends and tips",
+        "Professional services for complex implementation projects",
+        "Status page for platform uptime and incident updates"
+      ],
+      "notes": "Wrap up Getting Started — open floor for questions."
+    }
+  ]
+}
