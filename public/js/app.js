@@ -18,10 +18,13 @@
   };
 
   async function loadContent() {
+    const cfg = window.KF_TRAINING || {};
     const base = document.querySelector('base')?.href
       || new URL('./', window.location.href).href;
+    const githubBase = cfg.githubPagesUrl || 'https://jerome-kissflow.github.io/kissflow-training-showcase/';
     const sources = [
       new URL('data/content.json', base).href,
+      new URL('data/content.json', githubBase).href,
       '/api/content',
     ];
     for (const url of sources) {
@@ -35,7 +38,39 @@
     throw new Error('Failed to load training content');
   }
 
+  function bindTouchNavigation() {
+    const stage = $('#slide-stage');
+    if (!stage) return;
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    stage.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+      touchStartY = e.changedTouches[0].screenY;
+    }, { passive: true });
+
+    stage.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].screenX - touchStartX;
+      const dy = e.changedTouches[0].screenY - touchStartY;
+      if (Math.abs(dx) < 50 || Math.abs(dy) > Math.abs(dx)) return;
+      if (dx < 0) nextSlide();
+      else prevSlide();
+    }, { passive: true });
+  }
+
+  function detectMobileApp() {
+    const ua = navigator.userAgent || '';
+    if (/KissflowTraining/i.test(ua) || window.KF_ANDROID_APP) {
+      document.body.classList.add('is-mobile-app');
+    }
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+      document.body.classList.add('is-touch');
+    }
+  }
+
   async function init() {
+    detectMobileApp();
     state.content = await loadContent();
     if (state.content.meta?.logo) {
       $('#header-logo').src = state.content.meta.logo;
@@ -54,6 +89,7 @@
     $('#btn-next').addEventListener('click', nextSlide);
     $('#btn-fullscreen').addEventListener('click', toggleFullscreen);
     $('#btn-notes').addEventListener('click', toggleNotes);
+    bindTouchNavigation();
 
     document.addEventListener('keydown', (e) => {
       if (state.view === 'presenter') {

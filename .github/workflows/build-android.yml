@@ -1,0 +1,59 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Mobile app for android/**'
+      - 'public/**'
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Accept Android licenses
+        run: yes | sdkmanager --licenses || true
+
+      - name: Install build tools
+        run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Generate Gradle wrapper
+        working-directory: Mobile app for android/android
+        run: |
+          curl -sL https://services.gradle.org/distributions/gradle-8.7-bin.zip -o /tmp/gradle.zip
+          unzip -q /tmp/gradle.zip -d /tmp
+          /tmp/gradle-8.7/bin/gradle wrapper --gradle-version 8.7
+
+      - name: Build debug APK
+        working-directory: Mobile app for android/android
+        run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
+
+      - name: Copy APK to folder
+        run: |
+          cp "Mobile app for android/android/app/build/outputs/apk/debug/Kissflow-Training-debug.apk" \
+             "Mobile app for android/Kissflow-Training.apk"
+
+      - name: Commit APK
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "Mobile app for android/Kissflow-Training.apk" "Mobile app for android/android/gradlew" "Mobile app for android/android/gradlew.bat" "Mobile app for android/android/gradle/wrapper/gradle-wrapper.jar" 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Update Kissflow Training APK [skip ci]"
+          git push || true

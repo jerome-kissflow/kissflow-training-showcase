@@ -4,3 +4,7 @@ npm-debug.log*
 .env
 .env.*
 public/data/content.json
+Mobile app for android/android/.gradle/
+Mobile app for android/android/app/build/
+Mobile app for android/android/local.properties
+Mobile app for android/android/.idea/

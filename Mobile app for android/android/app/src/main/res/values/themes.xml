@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KissflowTraining" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/kf_primary</item>
+        <item name="colorPrimaryVariant">@color/kf_navy</item>
+        <item name="colorSecondary">@color/kf_accent</item>
+        <item name="android:statusBarColor">@color/kf_navy</item>
+        <item name="android:navigationBarColor">@color/kf_navy</item>
+        <item name="android:windowBackground">@color/kf_bg</item>
+    </style>
+</resources>

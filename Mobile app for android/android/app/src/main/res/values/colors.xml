@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kf_primary">#0565FF</color>
+    <color name="kf_accent">#C72C91</color>
+    <color name="kf_navy">#1D2B36</color>
+    <color name="kf_slate">#415569</color>
+    <color name="kf_bg">#F9FAFA</color>
+</resources>

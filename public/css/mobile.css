@@ -1,0 +1,250 @@
+/* Kissflow Training — mobile & tablet styles */
+
+@media (max-width: 900px), (pointer: coarse) {
+  :root {
+    --header-height: 60px;
+    --footer-height: 48px;
+  }
+
+  .header-title {
+    font-size: 0.95rem;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-actions .btn-ghost span,
+  .header-actions .btn-ghost:not(#btn-notes) {
+    font-size: 0;
+    padding: 10px;
+  }
+
+  .header-actions .btn-ghost svg {
+    margin: 0;
+  }
+
+  #btn-notes {
+    font-size: 0 !important;
+  }
+
+  .home-banner {
+    max-height: 72px;
+  }
+
+  .home-banner-img {
+    height: 72px;
+  }
+
+  .section-grid {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .section-card {
+    padding: 16px;
+    min-height: 72px;
+  }
+
+  .section-card-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .section-card-body h3 {
+    font-size: 1rem;
+  }
+
+  #view-presenter.active {
+    height: calc(100vh - var(--header-height) - var(--footer-height));
+    height: calc(100dvh - var(--header-height) - var(--footer-height));
+  }
+
+  .presenter-layout {
+    flex-direction: column;
+  }
+
+  .presenter-sidebar {
+    display: none;
+  }
+
+  .presenter-main {
+    flex: 1;
+    min-height: 0;
+  }
+
+  .slide-stage {
+    padding: 12px;
+    align-items: stretch;
+  }
+
+  .slide {
+    max-width: 100%;
+    min-height: 0;
+    max-height: none;
+    flex: 1;
+    border-radius: var(--kf-radius);
+  }
+
+  .slide-title-body {
+    padding: 24px 20px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .slide-title-text h2 {
+    font-size: 1.45rem;
+  }
+
+  .slide-title-text .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .slide-title-image {
+    width: 100%;
+  }
+
+  .slide-title-image img,
+  .slide-title-image video {
+    max-height: 180px;
+  }
+
+  .slide-content-layout {
+    flex-direction: column;
+  }
+
+  .slide-content-left {
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .slide-content-left h2 {
+    font-size: 1.25rem;
+  }
+
+  .slide-bullets {
+    max-height: none;
+  }
+
+  .slide-bullets li {
+    font-size: 0.88rem;
+    padding: 8px 0 8px 22px;
+  }
+
+  .slide-content-right {
+    width: 100%;
+    min-height: 120px;
+    max-height: 200px;
+    padding: 12px;
+  }
+
+  .slide-grid-layout {
+    padding: 20px 16px;
+    overflow-y: auto;
+  }
+
+  .slide-grid-layout h2 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .slide-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .grid-item {
+    padding: 14px 10px;
+  }
+
+  .grid-item img,
+  .grid-item video {
+    width: 40px;
+    height: 40px;
+  }
+
+  .grid-item h4 {
+    font-size: 0.85rem;
+  }
+
+  .grid-item p {
+    font-size: 0.72rem;
+  }
+
+  .presenter-controls {
+    padding: 12px 16px;
+    gap: 12px;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .presenter-controls .btn {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+
+  .speaker-notes.visible {
+    max-height: 100px;
+    padding: 12px 16px;
+  }
+
+  .footer-hint {
+    font-size: 0.65rem;
+    text-align: center;
+  }
+
+  /* Swipe hint overlay */
+  .mobile-swipe-hint {
+    display: block;
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--kf-slate-light);
+    padding: 4px 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-wrap {
+    padding: 4px 10px;
+  }
+
+  .header-brand .logo {
+    height: 24px;
+  }
+
+  .header-title {
+    display: none;
+  }
+
+  .slide-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .presenter-controls .btn-ghost,
+  .presenter-controls .btn-primary {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+/* Android WebView / standalone */
+body.is-mobile-app {
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  user-select: none;
+}
+
+body.is-mobile-app .slide-bullets {
+  user-select: text;
+}
+
+body.is-mobile-app .speaker-notes p {
+  user-select: text;
+}
+
+.mobile-swipe-hint {
+  display: none;
+}

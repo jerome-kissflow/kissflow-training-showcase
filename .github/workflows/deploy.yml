@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'Mobile app for android/Kissflow-Training.apk'
+      - '**.md'
   workflow_dispatch:
 
 permissions:

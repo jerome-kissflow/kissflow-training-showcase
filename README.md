@@ -32,7 +32,13 @@ npm run dev
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step instructions.
 
-Live URL: `https://YOUR_USERNAME.github.io/kissflow-training-showcase/`
+Live URL: `https://jerome-kissflow.github.io/kissflow-training-showcase/`
+
+## Android app
+
+Install on phone or tablet: **[Mobile app for android/Kissflow-Training.apk](Mobile%20app%20for%20android/Kissflow-Training.apk)**
+
+The Android app loads all content and styles from GitHub Pages — see [Mobile app for android/README.md](Mobile%20app%20for%20android/README.md).
 
 ## Customizing Content
 
