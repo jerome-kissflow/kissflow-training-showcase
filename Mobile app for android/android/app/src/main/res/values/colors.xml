@@ -5,4 +5,5 @@
     <color name="kf_navy">#1D2B36</color>
     <color name="kf_slate">#415569</color>
     <color name="kf_bg">#F9FAFA</color>
+    <color name="kf_black">#000000</color>
 </resources>
